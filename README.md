@@ -13,13 +13,15 @@ Dengan memahami tantangan ini, kami merasa perlu untuk mengembangkan aplikasi ya
 **Branding**
 
 Merk: SolatYuk
+
 Tagline: Lebih nyaman ke masjid 
+
 Campaign: Bagaimana membantu mengurangi hambatan solat berjamaah seperti notifikasi handphone 
-Target user: Usia 7+
-Yang terlalu sibuk dengan notifikasi gadget
-User experience theme: 
-Mudah dikonfigurasi dan digunakan
-Terknoneksi dengan aplikasi berbasis mobile
+
+Target user: Yang terlalu sibuk dengan notifikasi gadget
+
+User experience theme: Mudah dikonfigurasi dan digunakan,
+Terkoneksi dengan aplikasi berbasis mobile
 
 **User Story**
 
@@ -69,3 +71,4 @@ Notifikasi Handphone
 
 **User Experience (UX) Design**
 
+- Mudah digunakan oleh admin dan juga pengguna
