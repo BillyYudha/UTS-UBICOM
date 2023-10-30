@@ -25,6 +25,8 @@ Terkoneksi dengan aplikasi berbasis mobile
 
 **User Story**
 
+![image](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/bb2ac753-5120-4c06-817e-d381df89cc39)
+
 **Metode dan Algoritma**
 
 Pada tahap ini kita menjelaskan metode dan algoritma yang digunakan pada setiap komponen teknologi UbiCom. Contoh:
