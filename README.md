@@ -29,12 +29,11 @@ Terkoneksi dengan aplikasi berbasis mobile
 
 **Metode dan Algoritma**
 
-Pada tahap ini kita menjelaskan metode dan algoritma yang digunakan pada setiap komponen teknologi UbiCom. Contoh:
 Sensor:
 API Gmaps pada mobile apps
+
 Responder:
 Notifikasi Handphone
-Mobile software development
 
 **Struktur Data**
 
