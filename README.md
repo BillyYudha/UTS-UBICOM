@@ -1,43 +1,71 @@
 **Latar Belakang**
 
-Salat adalah salah satu kewajiban penting dalam agama Islam, dan merupakan salah satu cara utama untuk berkomunikasi dengan Allah. Waktu-waktu salat telah ditetapkan dalam ajaran Islam, dan setiap muslim diwajibkan untuk menunaikan salat lima kali sehari. Namun, dalam era teknologi modern, penggunaan ponsel pintar dan notifikasi nada dering telah menjadi bagian tak terpisahkan dari kehidupan sehari-hari.
+1. Konteks dan Kebutuhan:
+Dalam konteks pengelolaan kehadiran karyawan atau peserta suatu acara, pencatatan absensi merupakan aspek penting untuk memastikan kehadiran yang akurat dan efisien. Sistem manual seringkali memakan waktu dan berisiko terjadi kesalahan. Oleh karena itu, penggunaan teknologi QR code dalam mengelola absensi dianggap sebagai solusi yang lebih modern, cepat, dan akurat.
 
-Sayangnya, dalam beberapa situasi, notifikasi nada dering ponsel dapat mengganggu pelaksanaan salat, terutama saat salat berjamaah di masjid. Ketika seorang muslim berada di dalam masjid, fokusnya seharusnya tertuju pada ibadah dan konsentrasi dalam berkomunikasi dengan Allah. Notifikasi ponsel yang tidak dimatikan atau nada dering yang terdengar dapat mengganggu ketenangan dan konsentrasi dalam ibadah.
+2. Alasan Memilih QR Code:
+QR code dipilih sebagai teknologi untuk sistem absensi karena keunggulannya dalam kecepatan pemindaian dan kemudahan implementasinya. Setiap individu atau peserta akan memiliki QR code unik yang dapat dipindai menggunakan perangkat kamera ponsel pintar atau perangkat pembaca QR code lainnya.
 
-Selain itu, ada juga tantangan dalam hal kesadaran akan waktu salat dan lokasi masjid terdekat. Terkadang pengguna ponsel mungkin tidak sadar tentang waktu salat yang telah tiba atau tidak tahu lokasi masjid terdekat, yang dapat menghambat pelaksanaan salat berjamaah.
+3. Manfaat Sistem Absensi QR Code:
 
-Dalam konteks ini, diperlukan sebuah aplikasi yang dapat membantu pengguna dalam menjalankan ibadah salat dengan lebih baik. Aplikasi ini harus mampu memberikan pengingat waktu salat, membantu menemukan masjid terdekat, dan secara otomatis menonaktifkan notifikasi nada dering saat pengguna memasuki masjid. Hal ini akan membantu pengguna dalam meningkatkan kesadaran terhadap waktu salat, memfasilitasi pelaksanaan salat berjamaah, dan mengurangi gangguan notifikasi nada dering selama ibadah di masjid.
+- Efisiensi Waktu: Proses absensi menjadi lebih cepat dan efisien karena hanya memerlukan pemindaian QR code.
+- Akurasi Data: Mengurangi risiko kesalahan manusia yang mungkin terjadi pada sistem manual.
+- Pelacakan Kehadiran Real-time: Sistem memungkinkan pemantauan kehadiran secara langsung dan dapat memberikan laporan real-time.
+4. Pemilihan Framework CodeIgniter 4:
 
-Dengan memahami tantangan ini, kami merasa perlu untuk mengembangkan aplikasi yang dapat menjadi solusi praktis bagi umat Islam dalam menjalankan ibadah salat dengan lebih baik dan meningkatkan kualitas ibadah mereka di masjid.
+- Ringan dan Cepat: CodeIgniter 4 dikenal sebagai framework PHP yang ringan dan memiliki kinerja tinggi, cocok untuk proyek-proyek dengan kebutuhan responsif dan efisien.
+- MVC Architecture: Arsitektur Model-View-Controller (MVC) pada CodeIgniter memisahkan logika bisnis, presentasi, dan pengelolaan database, memudahkan pengembangan, pemeliharaan, dan pengujian aplikasi.
+5. Keamanan:
+
+- Proteksi Data: CodeIgniter 4 menyediakan fitur keamanan yang kuat untuk melindungi data, termasuk proteksi terhadap serangan SQL injection dan Cross-Site Scripting (XSS).
+6. Pengembangan Fitur Tambahan:
+Selain fitur dasar absensi QR code, aplikasi juga dapat dikembangkan dengan beberapa fitur tambahan, seperti:
+
+- Riwayat Kehadiran: Menyimpan dan menampilkan riwayat kehadiran untuk keperluan pelacakan.
+- Notifikasi: Mengirim notifikasi kepada pengelola atau peserta terkait status kehadiran.
+- Integrasi Database: Integrasi dengan database untuk menyimpan dan mengelola data kehadiran.
   
 **Branding**
 
-Merk: SolatYuk
+Branding: QRAttend
 
-Tagline: Lebih nyaman ke masjid 
+Tagline: Hadirkan Kehadiran dengan Mudah
 
-Campaign: Bagaimana membantu mengurangi hambatan solat berjamaah seperti notifikasi handphone 
+Deskripsi:
+QRAttend adalah solusi modern untuk manajemen kehadiran yang menggabungkan kemudahan penggunaan dengan teknologi QR code. Dirancang khusus untuk mempermudah proses absensi, QRAttend memberikan solusi yang efisien dan terhubung dengan aplikasi berbasis mobile.
 
-Target user: Yang terlalu sibuk dengan notifikasi gadget
+Nilai Utama:
+1. Absensi Tanpa Batas: QRAttend memungkinkan absensi tanpa batas dengan menggunakan QR code yang unik untuk setiap individu.
+2. Kemudahan Penggunaan: Penggunaan QRAttend sangat mudah, cukup dengan pemindaian QR code untuk merekam kehadiran.
+3. QRAttend memberikan kemudahan konfigurasi dan pemantauan kehadiran secara real-time.
 
-User experience theme: Mudah dikonfigurasi dan digunakan,
-Terkoneksi dengan aplikasi berbasis mobile
+Campaign Message:
+"Dengan QRAttend, kehadiran menjadi lebih mudah dan efisien. Pemindaian QR code memberikan pengalaman absensi yang cepat dan terhubung dengan aplikasi mobile memastikan Anda selalu terkini dengan data kehadiran. Hadirkan kehadiran dengan mudah bersama QRAttend."
+
+Target User:
+Organisasi atau perusahaan yang mencari solusi modern dan efisien untuk manajemen kehadiran, serta memprioritaskan kemudahan penggunaan.
+
+User Experience Theme:
+Mudah Dikonfigurasi dan Digunakan, Terkoneksi dengan Aplikasi Mobile
+
+Visual Identity:
+Warna: colorfull yang mencerminkan teknologi modern dan kepercayaan.
+Font: Bersih, futuristik, dan mudah dibaca.
+
+QRAttend tidak hanya membawa kemudahan teknologi QR code untuk manajemen kehadiran, tetapi juga menghadirkan pengalaman pengguna yang efisien dan terhubung. Bersama QRAttend, kehadiran menjadi lebih dari sekadar absensi, tetapi bagian dari pengelolaan yang modern dan cerdas.
 
 **User Story**
 
-![image](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/bb2ac753-5120-4c06-817e-d381df89cc39)
+![rate](https://github.com/BillyYudha/absensiqr/assets/113665144/e561b3b7-8b80-4610-8773-e3182282f5ab)
 
-**Metode dan Algoritma**
+Metode dan Algoritma
 
-Sensor:
-API Gmaps pada mobile apps
-
-Responder:
-Notifikasi Handphone
+Perangkat lunak pada penelitian ini dikembangkan dengan metode waterfall. Metode ini mempunyai kelebihan karena bersifat sistematis dan berurutan 
+sehingga memudahkan pengembang dalam melakukan pembuatan sistem dan membuat perangkat lunak terjaga kualitasnya.
 
 **Struktur Data**
 
-![solatyuk drawio](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/98a673f1-4af1-425e-82e2-3cad8e1d56bf)
+![struktur data absen qr](https://github.com/BillyYudha/absensiqr/assets/113665144/b3022b39-ccac-42e1-9667-03177db6b1d9)
 
 **Arsitektur Sistem**
 
@@ -55,21 +83,30 @@ f.	Integrasi dengan Peta: Aplikasi akan terhubung dengan layanan peta untuk memb
 
 **Deskripsi Teknologi**
 
-Pada tahap ini kita menjelaskan setiap teknologi hardware dan software yang digunakan dalam pembangunan sistem. Contoh:
-Smart phone: Android & iPhone. Aplikasi ini dapat diakses melalui perangkat handphone.
+Teknologi yang digunakan dalam pengembangan aplikasi absensi QR code dengan menggunakan framework CodeIgniter 4 mencakup berbagai komponen, mulai dari backend hingga frontend, serta komponen pendukung. Berikut adalah deskripsi teknologinya:
 
-Software development
+1. Backend:
+   - CodeIgniter 4: Framework PHP yang digunakan untuk membangun backend aplikasi. CodeIgniter 4 menyediakan struktur MVC yang kokoh, mempermudah pengelolaan kode, serta menyediakan sejumlah pustaka dan helper        yang mempercepat pengembangan.
+   - PHP 8.x: Versi PHP yang digunakan oleh CodeIgniter 4. PHP 7.x memiliki peningkatan kinerja dan keamanan dibandingkan dengan versi sebelumnya.
 
-Mobile development: Flutter. Flutter mempermudah untuk membuat apps dan juga meletakan API Gmaps
+2. Database:
+   - MySQL atau PostgreSQL: Database relasional yang digunakan untuk menyimpan data pengguna, data kehadiran, dan data lain yang diperlukan. CodeIgniter 4 memiliki dukungan yang baik untuk berbagai jenis              database relasional.
 
-Sensor
+3. Frontend:
+   - PHP, CSS, JavaScript: Bahasa-bahasa dasar untuk membangun antarmuka pengguna (UI) pada bagian frontend.
 
-Radius Jarak : Menggunakan API Gmaps dalam flutter
+4. QR Code Generation:
+   - QR Code Generator Library: Pustaka yang dapat menghasilkan QR code dari data yang diberikan. Beberapa pilihan pustaka populer termasuk `bacon/bacon-qr-code` untuk PHP atau pustaka JavaScript seperti `qrcode.js`.
 
-Responder 
+5. Authentication:
+   - CodeIgniter 4 Authentication Library: CodeIgniter menyediakan pustaka bawaan untuk otentikasi pengguna. Pustaka ini dapat diintegrasikan dengan model pengguna untuk mengelola otentikasi.
 
-Notifikasi Handphone
+6. Security:
+   - Security Helpers: CodeIgniter menyertakan sejumlah helper keamanan, termasuk fungsi hashing password, validasi input.
 
-**User Experience (UX) Design**
+7. Middleware:
+   - CodeIgniter 4 Middleware: Memungkinkan untuk menyisipkan kode atau logika sebelum atau setelah eksekusi dari suatu request. Middleware dapat digunakan untuk otentikasi, logging, atau sejumlah tugas               middleware lainnya.
 
-- Mudah digunakan oleh admin dan juga pengguna
+8. Development Tools:
+   - Composer: Untuk manajemen paket PHP, termasuk pustaka-pustaka yang diperlukan untuk proyek.
+   - Code Editor atau IDE: Seperti Visual Studio Code, PhpStorm, atau IDE lainnya untuk pengembangan dan penyuntingan kode.
