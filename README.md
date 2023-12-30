@@ -110,4 +110,4 @@ Teknologi yang digunakan dalam pengembangan aplikasi absensi QR code dengan meng
 8. Development Tools:
    - Composer: Untuk manajemen paket PHP, termasuk pustaka-pustaka yang diperlukan untuk proyek.
    - Code Editor atau IDE: Seperti Visual Studio Code, PhpStorm, atau IDE lainnya untuk pengembangan dan penyuntingan kode.
->>>>>>> bcd428d3e9fb11ffcebaa7ebbab01b68e9945c26
+
