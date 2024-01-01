@@ -69,13 +69,7 @@ sehingga memudahkan pengembang dalam melakukan pembuatan sistem dan membuat pera
 
 **Arsitektur Sistem**
 
-Model-View-Controller (MVC):
-
-Model: Bertanggung jawab untuk mengelola data dan logika bisnis. Dalam konteks ini, model dapat berinteraksi dengan database untuk menyimpan dan mengambil data absensi.
-
-View: Menangani tampilan dan antarmuka pengguna. Di sini, view akan menampilkan informasi kepada pengguna, seperti formulir untuk absensi atau laporan kehadiran.
-
-Controller: Menanggapi input pengguna dan mengoordinasikan antara model dan view. Controller akan mengelola logika bisnis, memvalidasi input, dan memicu tindakan yang sesuai.
+![arsitektur sistem qrcode](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/fc49edd4-1249-42e5-8eba-f3d8c2e53bd0)
 
 **Deskripsi Teknologi**
 
