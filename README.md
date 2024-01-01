@@ -1,3 +1,5 @@
+# UAS UBIQUITOS COMPUTING
+## Aplikasi Web Sistem Absensi Sekolah Berbasis QR Code
 **NO 1**
 
 **Latar Belakang**
@@ -107,8 +109,6 @@ Teknologi yang digunakan dalam pengembangan aplikasi absensi QR code dengan meng
 
 VIDEO Demo Aplikasi :
 https://youtu.be/63s9VTDwj5s
-
-# Aplikasi Web Sistem Absensi Sekolah Berbasis QR Code
 
 ![Screenshot (239)](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/1400d1af-fa83-4cc4-9da1-fa141303efae)
 
