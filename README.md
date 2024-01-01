@@ -65,7 +65,7 @@ sehingga memudahkan pengembang dalam melakukan pembuatan sistem dan membuat pera
 
 **Struktur Data**
 
-![struktur data absen qr](https://github.com/BillyYudha/absensiqr/assets/113665144/b3022b39-ccac-42e1-9667-03177db6b1d9)
+![absensiqr](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/a773abee-cf14-48ef-9078-ce8a4ef91091)
 
 **Arsitektur Sistem**
 
