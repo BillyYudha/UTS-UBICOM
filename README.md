@@ -1,3 +1,5 @@
+**NO 1**
+
 **Latar Belakang**
 
 1. Konteks dan Kebutuhan:
@@ -101,6 +103,169 @@ Teknologi yang digunakan dalam pengembangan aplikasi absensi QR code dengan meng
    - Composer: Untuk manajemen paket PHP, termasuk pustaka-pustaka yang diperlukan untuk proyek.
    - Code Editor atau IDE: Seperti Visual Studio Code, PhpStorm, atau IDE lainnya untuk pengembangan dan penyuntingan kode.
 
+**NO 2 DAN NO 3**
 VIDEO Demo Aplikasi :
 https://youtu.be/63s9VTDwj5s
+
+# Aplikasi Web Sistem Absensi Sekolah Berbasis QR Code
+
+XXXXXXXXXXXXXXXXXXXXX
+
+Aplikasi Web Sistem Absensi Sekolah Berbasis QR Code adalah sebuah proyek yang bertujuan untuk mengotomatisasi proses absensi di lingkungan sekolah menggunakan teknologi QR code. Aplikasi ini dikembangkan dengan menggunakan framework CodeIgniter 4 dan didesain untuk mempermudah pengelolaan dan pencatatan kehadiran siswa dan guru.
+
+## Fitur Utama
+
+- **QR Code scanner.** Setiap siswa/guru menunjukkan qr code kepada perangkat yang dilengkapi dengan kamera. Aplikasi akan memvalidasi QR code dan mencatat kehadiran siswa ke dalam database.
+- **Login petugas.**
+- **Dashboard petugas.** Petugas sekolah dapat dengan mudah memantau kehadiran siswa dalam periode waktu tertentu melalui tampilan yang disediakan.
+- **QR Code generator.** Petugas yang sudah login akan men-generate qr code setiap siswa/guru secara otomatis. Setiap siswa akan diberikan QR code unik yang terkait dengan identitas siswa. QR code ini akan digunakan saat proses absensi.
+- **Ubah data absen siswa/guru.** Petugas dapat mengubah data absensi setiap siswa/guru. Misalnya mengubah data kehadiran dari `tanpa keterangan` menjadi `sakit` atau `izin`.
+- **Tambah, Ubah, Hapus(CRUD) data siswa/guru.**
+- **Tambah, Ubah, Hapus(CRUD) data kelas.**
+- **Lihat, Tambah, Ubah, Hapus(CRUD) data petugas.** (khusus petugas yang login sebagai **`superadmin`**).
+- **Generate Laporan.** Generate laporan dalam bentuk pdf.
+
+## Framework dan Library Yang Digunakan
+
+XXXXXXXXXXXXXXXXXXX
+-
+## Screenshots
+
+### Tampilan Halaman QR Scanner
+
+XXXXXXXXXXXXXXXXXXXXX
+
+### Tampilan Absen Masuk dan Pulang
+
+XXXXXXXXXXXXXXXXXXXXX
+
+### Tampilan Login Petugas
+
+XXXXXXXXXXXXXXXXXXXXX
+
+### Tampilan Dashboard Petugas
+
+XXXXXXXXXXXXXXXXXXXXX
+
+### Tampilan CRUD Data Absen
+
+| Siswa (Dengan Data Kelas)                                                                                                   |                                                           Guru                                                           |
+| --------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------: |
+| XXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXX
+
+### Tampilan Ubah Data Kehadiran
+
+XXXXXXXXXXXXXXXXXXXXX
+
+### Tampilan CRUD Data Siswa & Guru
+
+| Siswa                                                                                                                      |                                                           Guru                                                            |
+
+XXXXXXXXXXXXXXXXXXXXX
+
+### Tampilan CRUD Data Kelas & Jurusan
+
+XXXXXXXXXXXXXXXXXXXXX
+
+### Tampilan Generate QR Code dan Generate Laporan
+
+| Generate QR                                                                                                          |                                                      Generate Laporan                                                       |
+| -------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------: |
+XXXXXXXXXXXXXXXXXXXXX
+
+## Cara Penggunaan
+
+### Persyaratan
+
+- [Composer](https://getcomposer.org/).
+- PHP dan MySQL atau [XAMPP](https://www.apachefriends.org/download.html) versi 8.1+ dengan mengaktifkan extension `-intl` dan `-gd`.
+- Pastikan perangkat memiliki kamera/webcam untuk menjalankan qr scanner. Bisa juga menggunakan kamera HP dengan bantuan software DroidCam.
+
+### Instalasi
+
+- Unduh dan impor kode proyek ini ke dalam direktori proyek anda (htdocs).
+- (Opsional) Konfigurasi file `.env` untuk mengatur parameter seperti koneksi database dan pengaturan lainnya sesuai dengan lingkungan pengembangan Anda.
+- (Opsional) Ganti/replace logo sekolah di `public/assets/img/logo_sekolah.jpg`.
+- (Opsional) Konfigurasi file `app/Config/App.php` untuk mengubah base url sesuai dengan nama folder project.
+- Penting ⚠️. Install dependencies yang diperlukan dengan cara menjalankan perintah berikut di terminal:
+
+```shell
+composer install
+```
+
+- Buat database `db_absensi` di phpMyAdmin / mysql
+- Penting ⚠️. Jalankan migrasi database untuk membuat struktur tabel yang diperlukan. Ketikkan perintah berikut di terminal:
+
+```shell
+php spark migrate --all
+```
+
+- Buka file `vendor/myth/auth/src/Config/Auth.php`. Lalu ubah kedua baris berikut:
+
+```php
+    public $requireActivation = 'Myth\Auth\Authentication\Activators\EmailActivator';
+
+    public $activeResetter = 'Myth\Auth\Authentication\Resetters\EmailResetter';
+```
+
+- ubah value menjadi `null`:
+
+```php
+    public $requireActivation = null;
+
+    public $activeResetter = null;
+```
+
+- (Opsional) Masih di file yang sama, ubah baris berikut:
+
+```php
+public $views = [
+        'login'           => 'Myth\Auth\Views\login', // baris ini
+        'register'        => 'Myth\Auth\Views\register',
+        'forgot'          => 'Myth\Auth\Views\forgot',
+        'reset'           => 'Myth\Auth\Views\reset',
+        'emailForgot'     => 'Myth\Auth\Views\emails\forgot',
+        'emailActivation' => 'Myth\Auth\Views\emails\activation',
+    ];
+```
+
+menjadi:
+
+```php
+public $views = [
+        'login'           => '\App\Views\admin\login', // menggunakan tampilan login custom
+        'register'        => 'Myth\Auth\Views\register',
+        'forgot'          => 'Myth\Auth\Views\forgot',
+        'reset'           => 'Myth\Auth\Views\reset',
+        'emailForgot'     => 'Myth\Auth\Views\emails\forgot',
+        'emailActivation' => 'Myth\Auth\Views\emails\activation',
+    ];
+```
+
+- Jalankan web server.
+- Lalu jalankan aplikasi di browser.
+- Login menggunakan krendensial superadmin:
+
+```
+username : superadmin
+password : superadmin
+```
+
+Jika ingin mengubah email, username & password dari superadmin
+
+Buka file `app\Database\Migrations\2023-08-18-000004_AddSuperadmin.php` lalu ubah & sesuaikan kode berikut:
+
+```php
+// INSERT INITIAL SUPERADMIN
+$email = 'adminsuper@gmail.com';
+$username = 'superadmin';
+$password = 'superadmin';
+```
+
+- Izinkan akses kamera.
+
+
+
+
+
 
