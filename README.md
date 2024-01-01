@@ -104,12 +104,13 @@ Teknologi yang digunakan dalam pengembangan aplikasi absensi QR code dengan meng
    - Code Editor atau IDE: Seperti Visual Studio Code, PhpStorm, atau IDE lainnya untuk pengembangan dan penyuntingan kode.
 
 **NO 2 DAN NO 3**
+
 VIDEO Demo Aplikasi :
 https://youtu.be/63s9VTDwj5s
 
 # Aplikasi Web Sistem Absensi Sekolah Berbasis QR Code
 
-XXXXXXXXXXXXXXXXXXXXX
+![Screenshot (239)](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/1400d1af-fa83-4cc4-9da1-fa141303efae)
 
 Aplikasi Web Sistem Absensi Sekolah Berbasis QR Code adalah sebuah proyek yang bertujuan untuk mengotomatisasi proses absensi di lingkungan sekolah menggunakan teknologi QR code. Aplikasi ini dikembangkan dengan menggunakan framework CodeIgniter 4 dan didesain untuk mempermudah pengelolaan dan pencatatan kehadiran siswa dan guru.
 
@@ -133,45 +134,46 @@ XXXXXXXXXXXXXXXXXXX
 
 ### Tampilan Halaman QR Scanner
 
-XXXXXXXXXXXXXXXXXXXXX
+![Screenshot (250)](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/23babfef-0c6d-434e-9985-cd337c983365)
 
 ### Tampilan Absen Masuk dan Pulang
 
-XXXXXXXXXXXXXXXXXXXXX
+![Screenshot (248)](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/f1bffb63-912b-47c8-994c-c0eedf04b38a)
+![Screenshot (249)](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/7249079f-d9ef-489e-a6b2-3a50b983ba0f)
 
-### Tampilan Login Petugas
+### Tampilan Login Admin
 
-XXXXXXXXXXXXXXXXXXXXX
+![Screenshot (236)](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/2127772d-a0c9-48a0-952f-abb849e1143e)
 
-### Tampilan Dashboard Petugas
+### Tampilan Dashboard Admin
 
-XXXXXXXXXXXXXXXXXXXXX
+![Screenshot (239)](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/b78eef2b-673a-4356-90a8-f2ddfbb96889)
 
 ### Tampilan CRUD Data Absen
 
+
 | Siswa (Dengan Data Kelas)                                                                                                   |                                                           Guru                                                           |
 | --------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------: |
-| XXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXX
+| ![Screenshot (240)](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/891c4fd8-f8c0-4059-84e0-8de20c8d2bac) | ![Screenshot (241)](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/411ad2e5-e089-45b8-bed4-cad0c35dadaf)
 
 ### Tampilan Ubah Data Kehadiran
 
-XXXXXXXXXXXXXXXXXXXXX
+![image](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/0da14a9f-cc80-4404-b599-63b9c29c65b4)
 
 ### Tampilan CRUD Data Siswa & Guru
 
-| Siswa                                                                                                                      |                                                           Guru                                                            |
-
-XXXXXXXXXXXXXXXXXXXXX
+![image](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/acbd4d4c-7721-44b7-9b01-52466467b8f0)
+![image](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/c93679f1-ae07-4456-80ae-f34eb71a12aa)
 
 ### Tampilan CRUD Data Kelas & Jurusan
 
-XXXXXXXXXXXXXXXXXXXXX
+![image](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/fdb21d42-9f6a-4a55-9066-22803554eb9f)
 
 ### Tampilan Generate QR Code dan Generate Laporan
 
-| Generate QR                                                                                                          |                                                      Generate Laporan                                                       |
-| -------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------: |
-XXXXXXXXXXXXXXXXXXXXX
+![image](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/e43ece16-8a9a-4638-8b08-1af4f0a0162f)
+![image](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/36d3c225-6be1-4b11-8c40-a13922451518)
+![image](https://github.com/BillyYudha/UTS-UBICOM/assets/113665144/4e277f00-dfd7-45ec-a822-0b6389b99b2c)
 
 ## Cara Penggunaan
 
@@ -263,6 +265,37 @@ $password = 'superadmin';
 ```
 
 - Izinkan akses kamera.
+
+**NO 4**
+
+Context Aware Systems yang digunakan sejauh ini adalah sistem yang peka terhadap hari,tanggal,tahun dan jam sehingga bisa didapat data absensi masuk pada waktu kapan.
+
+**NO 5**
+
+Aspek Kecerdasan yang dikembangkan menurut saya cukup inovatif yang diterapkan dalam sistem absensi yang menyebabkan hal ini lebih efisien dalam segi waktu dan waktu serta menghemat sumber daya kertas.
+
+**NO 6**
+
+- Sensor berupa fungsi atau metode pada bagian controller yang menangani permintaan pemindaian QR code menggunakan kamera. CodeIgniter 4        dapat menggunakan library atau helper QR code untuk membaca informasi dari QR code.
+- Responder terletak dalam controller yang mengelola logika bisnis untuk absensi. Setelah QR code dipindai, sistem dapat memanggil              metode yang akan mencatat kehadiran pengguna ke dalam database atau melakukan tindakan lain sesuai kebutuhan.
+
+**NO 7**
+
+Secara khusus, berikut adalah beberapa aspek yang berkaitan dengan protokol komunikasi data dalam sistem tersebut:
+
+-  HTTP (Hypertext Transfer Protocol):
+    Menggunakan HTTP sebagai protokol komunikasi utama. Permintaan (request) dari klien, seperti pemindai QR code atau browser, dikirimkan ke     server menggunakan metode HTTP seperti GET atau POST. Server kemudian merespons dengan memberikan data atau melakukan tindakan yang           sesuai.
+
+-  Metode HTTP (GET, POST):
+    Metode HTTP GET umumnya digunakan untuk permintaan yang tidak memodifikasi data di server, misalnya saat mengakses halaman untuk              pemindaian   QR code. Metode HTTP POST, di sisi lain, sering digunakan untuk mengirim data yang dapat memodifikasi status di server,          seperti saat mengirim informasi kehadiran ke database.
+
+-  JSON (JavaScript Object Notation):
+
+    JSON dapat digunakan sebagai format pertukaran data antara klien dan server. Misalnya, ketika pemindaian QR code berhasil, data kehadiran     dapat dikirim dari klien ke server dalam format JSON, dan server dapat merespons dengan data lainnya dalam format yang sama.
+
+ -  URL Encoding:
+
+     Pada saat pengiriman data melalui URL, data sering kali dienkripsi menggunakan URL encoding untuk memastikan keamanan dan kebenaran           pengiriman data. CodeIgniter 4 mendukung manajemen parameter URI dan dapat memproses data yang dikirim melalui URL dengan aman.
 
 
 
