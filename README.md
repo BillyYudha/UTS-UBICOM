@@ -86,7 +86,7 @@ Teknologi yang digunakan dalam pengembangan aplikasi absensi QR code dengan meng
    - PHP 8.x: Versi PHP yang digunakan oleh CodeIgniter 4. PHP 7.x memiliki peningkatan kinerja dan keamanan dibandingkan dengan versi sebelumnya.
 
 2. Database:
-   - MySQL atau PostgreSQL: Database relasional yang digunakan untuk menyimpan data pengguna, data kehadiran, dan data lain yang diperlukan. CodeIgniter 4 memiliki dukungan yang baik untuk berbagai jenis              database relasional.
+   - MySQL: Database relasional yang digunakan untuk menyimpan data pengguna, data kehadiran, dan data lain yang diperlukan. CodeIgniter 4 memiliki dukungan yang baik untuk berbagai jenis              database relasional.
 
 3. Frontend:
    - PHP, CSS, JavaScript: Bahasa-bahasa dasar untuk membangun antarmuka pengguna (UI) pada bagian frontend.
