@@ -128,8 +128,12 @@ Aplikasi Web Sistem Absensi Sekolah Berbasis QR Code adalah sebuah proyek yang b
 
 ## Framework dan Library Yang Digunakan
 
-XXXXXXXXXXXXXXXXXXX
--
+-  CodeIgniter 4
+-  Material Dashboard Bootstrap 4
+-  Myth Auth Library
+-  Endroid QR Code Generator
+-  ZXing JS QR Code Scanner
+
 ## Screenshots
 
 ### Tampilan Halaman QR Scanner
