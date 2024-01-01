@@ -69,17 +69,13 @@ sehingga memudahkan pengembang dalam melakukan pembuatan sistem dan membuat pera
 
 **Arsitektur Sistem**
 
-a.	Pemberitahuan Waktu Salat: Aplikasi akan memiliki database waktu salat harian yang diambil dari sumber yang terpercaya. Pengguna akan menerima pemberitahuan ketika waktu salat tiba.
+Model-View-Controller (MVC):
 
-b.	Lokasi Masjid Terdekat: Aplikasi akan menggunakan GPS atau lokasi pengguna untuk menemukan masjid terdekat dan memberikan petunjuk arah ke masjid tersebut.
+Model: Bertanggung jawab untuk mengelola data dan logika bisnis. Dalam konteks ini, model dapat berinteraksi dengan database untuk menyimpan dan mengambil data absensi.
 
-c.	Mode Masjid: Aplikasi akan memiliki mode masjid yang, ketika diaktifkan, akan secara otomatis menonaktifkan notifikasi nada dering pada ponsel pengguna saat mereka berada di dalam masjid. 
+View: Menangani tampilan dan antarmuka pengguna. Di sini, view akan menampilkan informasi kepada pengguna, seperti formulir untuk absensi atau laporan kehadiran.
 
-d.	Pengaturan Pribadi: Pengguna dapat mengatur pengingat waktu salat sesuai preferensi pribadi, seperti suara pengingat yang diinginkan atau pengaturan kustom lainnya. 
-
-e.	Notifikasi dan Peringatan: Aplikasi akan memberikan notifikasi kepada pengguna beberapa menit sebelum waktu salat tiba dan memberikan peringatan tentang jadwal waktu salat yang akan datang.
-
-f.	Integrasi dengan Peta: Aplikasi akan terhubung dengan layanan peta untuk memberikan informasi tentang lokasi masjid terdekat dan arah ke sana.
+Controller: Menanggapi input pengguna dan mengoordinasikan antara model dan view. Controller akan mengelola logika bisnis, memvalidasi input, dan memicu tindakan yang sesuai.
 
 **Deskripsi Teknologi**
 
@@ -110,4 +106,7 @@ Teknologi yang digunakan dalam pengembangan aplikasi absensi QR code dengan meng
 8. Development Tools:
    - Composer: Untuk manajemen paket PHP, termasuk pustaka-pustaka yang diperlukan untuk proyek.
    - Code Editor atau IDE: Seperti Visual Studio Code, PhpStorm, atau IDE lainnya untuk pengembangan dan penyuntingan kode.
+
+VIDEO Demo Aplikasi :
+https://youtu.be/63s9VTDwj5s
 
