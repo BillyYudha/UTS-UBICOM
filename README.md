@@ -36,7 +36,7 @@ Branding: QRAttend
 Tagline: Hadirkan Kehadiran dengan Mudah
 
 Deskripsi:
-QRAttend adalah solusi modern untuk manajemen kehadiran yang menggabungkan kemudahan penggunaan dengan teknologi QR code. Dirancang khusus untuk mempermudah proses absensi, QRAttend memberikan solusi yang efisien dan terhubung dengan aplikasi berbasis mobile.
+QRAttend adalah solusi modern untuk manajemen kehadiran yang menggabungkan kemudahan penggunaan dengan teknologi QR code. Dirancang khusus untuk mempermudah proses absensi, QRAttend memberikan solusi yang efisien.
 
 Nilai Utama:
 1. Absensi Tanpa Batas: QRAttend memungkinkan absensi tanpa batas dengan menggunakan QR code yang unik untuk setiap individu.
@@ -44,13 +44,13 @@ Nilai Utama:
 3. QRAttend memberikan kemudahan konfigurasi dan pemantauan kehadiran secara real-time.
 
 Campaign Message:
-"Dengan QRAttend, kehadiran menjadi lebih mudah dan efisien. Pemindaian QR code memberikan pengalaman absensi yang cepat dan terhubung dengan aplikasi mobile memastikan Anda selalu terkini dengan data kehadiran. Hadirkan kehadiran dengan mudah bersama QRAttend."
+"Dengan QRAttend, kehadiran menjadi lebih mudah dan efisien. Pemindaian QR code memberikan pengalaman absensi yang cepat dan memastikan Anda selalu terkini dengan data kehadiran. Hadirkan kehadiran dengan mudah bersama QRAttend."
 
 Target User:
 Organisasi atau perusahaan yang mencari solusi modern dan efisien untuk manajemen kehadiran, serta memprioritaskan kemudahan penggunaan.
 
 User Experience Theme:
-Mudah Dikonfigurasi dan Digunakan, Terkoneksi dengan Aplikasi Mobile
+Mudah Dikonfigurasi dan Digunakan.
 
 Visual Identity:
 Warna: colorfull yang mencerminkan teknologi modern dan kepercayaan.
