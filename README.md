@@ -276,7 +276,7 @@ Context Aware Systems yang digunakan sejauh ini adalah sistem yang peka terhadap
 
 **NO 5**
 
-Aspek Kecerdasan yang dikembangkan menurut saya cukup inovatif yang diterapkan dalam sistem absensi yang menyebabkan hal ini lebih efisien dalam segi waktu dan waktu serta menghemat sumber daya kertas.
+Aspek Kecerdasan yang dikembangkan menurut saya cukup inovatif yang diterapkan dalam sistem absensi yang menyebabkan hal ini lebih efisien dalam segi waktu serta menghemat sumber daya kertas.
 
 **NO 6**
 
